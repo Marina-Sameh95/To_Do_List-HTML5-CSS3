@@ -1,0 +1,103 @@
+.header {
+    background-color: #2993e9;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  body {
+    margin: 0;
+    min-width: 200px;
+    box-sizing: border-box;
+  }  
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#010202;
+    text-align: center;
+    height: 60px;
+
+  }
+  .divl1 h2{
+    background-color: rgb(233, 59, 59);
+  }
+  .divl2 h2{
+    background-color: rgb(241, 250, 113);
+  }
+  .divl3 h2{
+    background-color: rgb(67, 255, 124);
+  }
+  .lists{
+    overflow: hidden;
+     background-color:  #2993e9; 
+     padding: 50px;
+     display: flex;
+     height: auto;
+     margin-top: 2%;
+}
+.list{
+    float: left;
+    width: 33%;
+  }
+.divlist{
+      width: 95%;
+      margin: 5px auto;
+      color: black;
+      background-color: white;
+      height: 400px;
+}
+.divlist ul{
+  text-align: justify;
+  padding: 8px;
+  margin: 0px;
+  height: 300px;
+}
+.divlist li{
+    margin: 5px;
+    padding-left: 5px;
+    list-style-type: none;
+    font-size: 16px;
+    width: 95%;
+  }
+  .list1 li {
+      background-color: rgb(233, 59, 59);
+      padding: 5px;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+  }
+    .list2 li {
+      background-color: rgb(241, 250, 113);
+      color: rgb(0, 0, 0);
+      padding: 5px;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+  }
+   .list3 li{
+      background-color: rgb(67, 255, 124);
+      color: rgb(0, 0, 0);
+      padding: 5px;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+  }
+    
+   
+   
+
+@media screen and (min-width:1024px){
+  .lists {
+    background-color: #2993e9;
+  }
+}
+@media screen and (min-width:800px) and (max-width:1023px){
+  .lists {
+    background-color: aqua; 
+  }
+}
+@media screen and (min-width:400px) and (max-width:799px){
+  .lists {
+    background-color: bisque; 
+  }
+} 

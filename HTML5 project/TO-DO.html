@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <head>
+    <link rel="stylesheet" href="./css/csslist.css" type="text/css">
+    <title>To Do List</title>
+  </head>
+
+<body id="todo">
+  <div id="myDIV" class="header">
+    <h1 style="margin:5px">My To Do List</h1>
+    <input type="text" id="myInput" placeholder="Title...">
+    <input type="button" value="Add" onclick="add()">
+  </div>
+
+  <section class="lists">
+    <div style="margin: 0 auto; width:70%">
+      <section class="list">
+        <div class="divlist divl1">
+          <h2>To Do</h2>
+          <ul class="list1" id="ul1" ondragover="allowDrop(event)" ondrop="drop(event)"></ul>
+        </div>
+      </section>
+
+      <section class="list">
+        <div class="divlist divl2">
+          <h2>In progress </h2>
+          <ul class="list2" id="ul2" ondragover="allowDrop(event)" ondrop="drop(event)"></ul>
+        </div>
+      </section>
+
+
+      <section class="list ">
+        <div class="divlist divl3">
+          <h2>Done </h2>
+          <ul class="list3" id="ul3" ondragover="allowDrop(event)" ondrop="drop(event)"></ul>
+        </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="./js/list.js"></script>
+
+</body>
+
+</html>
